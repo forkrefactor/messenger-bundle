@@ -1,0 +1,20 @@
+{
+  "name": "forkrefactor/messenger-bundle",
+  "description": "Symfony Messenger Bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "autoload": {
+    "psr-4": {
+      "PcComponentes\\SymfonyMessengerBundle\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "beberlei/assert": "^3.2",
+    "forkrefactor/ddd": "^1.0",
+    "forkrefactor/ddd-logging": "^1.0"
+  },
+  "require-dev": {
+    "forkrefactor/coding-standard": "^1.0"
+  }
+}
