@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace PcComponentes\SymfonyMessengerBundle\Middleware;
 
-use PcComponentes\Ddd\Domain\Model\DomainEvent;
-use PcComponentes\Ddd\Infrastructure\Repository\EventStoreRepository;
+use Forkrefactor\Ddd\Domain\Model\DomainEvent;
+use Forkrefactor\Ddd\Infrastructure\Repository\EventStoreRepository;
 use Symfony\Component\Messenger\Envelope;
 use Symfony\Component\Messenger\Middleware\MiddlewareInterface;
 use Symfony\Component\Messenger\Middleware\StackInterface;

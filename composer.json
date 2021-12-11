@@ -12,7 +12,9 @@
     "php": "^7.4 | ^8.0",
     "beberlei/assert": "^3.2",
     "forkrefactor/ddd": "^1.0",
-    "forkrefactor/ddd-logging": "^1.0"
+    "forkrefactor/ddd-logging": "^1.0",
+    "symfony/dependency-injection": "^6.0",
+    "symfony/messenger": "^6.0"
   },
   "require-dev": {
     "forkrefactor/coding-standard": "^1.0"

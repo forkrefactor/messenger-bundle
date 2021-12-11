@@ -3,13 +3,13 @@ declare(strict_types=1);
 
 namespace PcComponentes\SymfonyMessengerBundle\DependencyInjection;
 
-use PcComponentes\Ddd\Application\Command;
-use PcComponentes\Ddd\Application\Query;
-use PcComponentes\Ddd\Domain\Model\DomainEvent;
-use PcComponentes\Ddd\Domain\Model\Snapshot;
-use PcComponentes\Ddd\Util\Message\AggregateMessage;
-use PcComponentes\Ddd\Util\Message\Serialization\MessageMappingRegistry;
-use PcComponentes\Ddd\Util\Message\SimpleMessage;
+use Forkrefactor\Ddd\Application\Command;
+use Forkrefactor\Ddd\Application\Query;
+use Forkrefactor\Ddd\Domain\Model\DomainEvent;
+use Forkrefactor\Ddd\Domain\Model\Snapshot;
+use Forkrefactor\Ddd\Util\Message\AggregateMessage;
+use Forkrefactor\Ddd\Util\Message\Serialization\MessageMappingRegistry;
+use Forkrefactor\Ddd\Util\Message\SimpleMessage;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;

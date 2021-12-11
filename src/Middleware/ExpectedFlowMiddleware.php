@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace PcComponentes\SymfonyMessengerBundle\Middleware;
 
-use PcComponentes\Ddd\Domain\Exception\ExistsException;
+use Forkrefactor\Ddd\Domain\Exception\ExistsException;
 use Symfony\Component\Messenger\Envelope;
 use Symfony\Component\Messenger\Exception\UnrecoverableExceptionInterface;
 use Symfony\Component\Messenger\Middleware\MiddlewareInterface;
 use Symfony\Component\Messenger\Middleware\StackInterface;
-use Symfony\Component\Messenger\Transport\AmqpExt\AmqpReceivedStamp;
+use Symfony\Component\Messenger\Bridge\Amqp\Transport\AmqpReceivedStamp;
 
 final class ExpectedFlowMiddleware implements MiddlewareInterface
 {

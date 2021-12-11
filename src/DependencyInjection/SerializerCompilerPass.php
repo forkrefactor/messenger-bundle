@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace PcComponentes\SymfonyMessengerBundle\DependencyInjection;
 
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\AggregateMessageJsonApiSerializable;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\AggregateMessageStreamDeserializer;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageJsonApiSerializable;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStreamDeserializer;
-use PcComponentes\DddLogging\DomainTrace\Tracker;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\AggregateMessageJsonApiSerializable;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\AggregateMessageStreamDeserializer;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageJsonApiSerializable;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStreamDeserializer;
+use Forkrefactor\DddLogging\DomainTrace\Tracker;
 use PcComponentes\SymfonyMessengerBundle\Serializer\AggregateMessageSerializer;
 use PcComponentes\SymfonyMessengerBundle\Serializer\SimpleMessageSerializer;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

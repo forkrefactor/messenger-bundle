@@ -4,11 +4,11 @@ declare(strict_types=1);
 namespace PcComponentes\SymfonyMessengerBundle\Serializer;
 
 use Assert\Assert;
-use PcComponentes\Ddd\Util\Message\Serialization\Exception\MessageClassNotFoundException;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageJsonApiSerializable;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStream;
-use PcComponentes\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStreamDeserializer;
-use PcComponentes\DddLogging\DomainTrace\Tracker;
+use Forkrefactor\Ddd\Util\Message\Serialization\Exception\MessageClassNotFoundException;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageJsonApiSerializable;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStream;
+use Forkrefactor\Ddd\Util\Message\Serialization\JsonApi\SimpleMessageStreamDeserializer;
+use Forkrefactor\DddLogging\DomainTrace\Tracker;
 use Symfony\Component\Messenger\Envelope;
 use Symfony\Component\Messenger\Exception\MessageDecodingFailedException;
 use Symfony\Component\Messenger\Stamp\RedeliveryStamp;
